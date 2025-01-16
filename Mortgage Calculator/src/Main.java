@@ -4,9 +4,8 @@ import java.util.Scanner;
 public class Main {
     public static void main(String[] args) {
 
-        Scanner principal = new Scanner(System.in);
-        Scanner annualInterest = new Scanner(System.in);
-        Scanner period = new Scanner(System.in);
+        Scanner scanner = new Scanner(System.in);
+        
 
         int p = 0;
         double annualInterest1 =0;
@@ -18,7 +17,7 @@ public class Main {
 
             while(true){
                 System.out.printf("Principal ($1K-$1M): ");
-                p = principal.nextInt();
+                p = scanner.nextInt();
 
                 if ((p >= 1000) && (p <= 1000000))
                     break;
@@ -27,7 +26,7 @@ public class Main {
 
             while(true) {
                 System.out.printf("Annual Interest: ");
-                annualInterest1 = annualInterest.nextDouble();
+                annualInterest1 = scanner.nextDouble();
                 aI = (annualInterest1 / 100) / 12;
 
                 if ((annualInterest1 >= 0) && (annualInterest1 <= 30))
@@ -37,7 +36,7 @@ public class Main {
 
             while(true) {
                 System.out.printf("Period (Years): ");
-                prd = period.nextInt();
+                prd = scanner.nextInt();
                 prd1 = prd * 12;
 
                 if ((prd >= 0) && (prd <= 30))
