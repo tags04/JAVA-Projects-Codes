@@ -295,10 +295,10 @@ public class Main {
         System.out.println("Hello World");
         }
         for(int a = 1; a <= 5; a++){
-            System.out.println("Hello World " + a);
+            System.out.println("Hello World " + a); // prints the the int in ASC format
         }
         for(int b = 5; b > 0; b--){
-            System.out.println("Hello World " + b);
+            System.out.println("Hello World " + b); // prints the the int in DESC format
         }
         */
 
