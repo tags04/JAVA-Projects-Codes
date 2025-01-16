@@ -11,8 +11,6 @@ public class Main {
         boolean fizz = false;
         boolean buzz = false;
 
-
-
         if ((num % 5 == 0) && (num % 3 == 0)) { //to make this work put the most specific condition at the top and generic ones at the bottom
             fizz = true;
             System.out.println("FizzBuzz");
