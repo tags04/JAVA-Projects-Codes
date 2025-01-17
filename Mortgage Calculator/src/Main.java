@@ -13,7 +13,7 @@ public class Main {
         double aI = 0;
         double prd1 = 0;
 
-            System.out.println("Mortgage Calculator (you lazy fuck)");
+            System.out.println("Mortgage Calculator ");
 
             while(true){
                 System.out.printf("Principal ($1K-$1M): ");
